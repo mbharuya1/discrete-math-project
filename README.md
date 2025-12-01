@@ -42,32 +42,32 @@ All functions were extensively tested with multiple examples.
 Main project notebook.
 Contains all student-implemented functions: acceptance, determinization, completion, intersection, union, concatenation, étoile, etc.
 
-- automateBase.py
+- automateBase.py: 
 Base class provided by the instructors.
 Implements the core structure of an Automate (states, transitions, base methods).
 Students do not modify this file.
 
-- state.py
+- state.py: 
 Defines the State class (ID, initial flag, final flag, label).
 Used to create and manipulate states in an automaton.
 
-- transition.py
+- transition.py: 
 Defines the Transition class (source state, label, destination state).
 Used to build transition systems.
 
-- myparser.py
+- myparser.py: 
 A helper script (provided).
 Used to parse automata description files or text structures into Python objects.
 
-- sp.py
+- sp.py: 
 Small supporting Python script (provided).
 Usually contains utility functions or helper operations used internally by the base automaton classes.
 
-- affichage.dot
+- affichage.dot: 
 GraphViz DOT file generated when calling automate.show().
 Represents the structure of an automaton as a graph.
 
-- affichage.dot.png
+- affichage.dot.png: 
 PNG image automatically generated from affichage.dot.
 Visual rendering of the automaton graph.
 
