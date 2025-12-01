@@ -38,12 +38,38 @@ All functions were extensively tested with multiple examples.
 
 ## Project Structure
 
-- automate_etudiant.ipynb # Main notebook with all implementations
-- state.py # Provided class representing states
-- transition.py # Provided class representing transitions
-- automateBase.py # Base class for Automate
-- ExemplesAutomates/ # Example automata files
-- affichage.dot # Graphviz display file (if generated)
+- automate_etudiant.ipynb
+Main project notebook.
+Contains all student-implemented functions: acceptance, determinization, completion, intersection, union, concatenation, étoile, etc.
+
+- automateBase.py
+Base class provided by the instructors.
+Implements the core structure of an Automate (states, transitions, base methods).
+Students do not modify this file.
+
+- state.py
+Defines the State class (ID, initial flag, final flag, label).
+Used to create and manipulate states in an automaton.
+
+- transition.py
+Defines the Transition class (source state, label, destination state).
+Used to build transition systems.
+
+- myparser.py
+A helper script (provided).
+Used to parse automata description files or text structures into Python objects.
+
+- sp.py
+Small supporting Python script (provided).
+Usually contains utility functions or helper operations used internally by the base automaton classes.
+
+- affichage.dot
+GraphViz DOT file generated when calling automate.show().
+Represents the structure of an automaton as a graph.
+
+- affichage.dot.png
+PNG image automatically generated from affichage.dot.
+Visual rendering of the automaton graph.
 
 
 The **only file modified by the students** is:
