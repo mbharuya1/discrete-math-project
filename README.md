@@ -1,7 +1,6 @@
-# Finite Automata Project – Discrete Mathematics (LU2IN005)
+# Finite Automata Project – Discrete Mathematics 
 
 This project implements a complete set of algorithms for **finite automata** using Python.  
-It was developed as part of the *Mathématiques Discrètes – LU2IN005* course at **Sorbonne Université (2023-2024)**.
 
 The notebook and Python files provided by the instructors define base data structures.  
 All algorithmic implementations and functions inside `automate_etudiant.ipynb` were coded by the students.
